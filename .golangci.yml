@@ -1,7 +1,5 @@
-# Минимальная конфигурация: только govet, без строгих стилевых правил для учебного проекта
-version: "2"
-
+# Формат golangci-lint v1 (как на CI с golangci-lint 1.64.x)
 linters:
-  default: none
+  disable-all: true
   enable:
     - govet
